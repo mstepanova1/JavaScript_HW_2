@@ -24,7 +24,7 @@ function checkStr(str) {
     } else {
         console.log("There must be at least one @")
     } if (str.length === 0 || !str.trim()) {                            // 9. Строка не должна быть пустой
-        console.log("The string is empty or consists only of spaces")
+        console.log("The line is empty or consists only of spaces")
     }
 }  
 checkStr("Q123@mail.com")
